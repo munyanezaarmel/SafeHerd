@@ -24,6 +24,11 @@ A simple app that sends real-time notifications and lets farmers see where their
 A sound-based system that trains livestock to recognize and stay within safe grazing zones.
 
 ---
+### Technologies
+- HTML
+- CSS
+- JAVASCRIPT
+- PLUTER JS
 
 ## 🔑 Key Features & Impact
 
