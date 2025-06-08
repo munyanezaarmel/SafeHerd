@@ -1,57 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SafeHerd - Livestock Management Platform</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo-section">
-                <div class="logo-icon"><img src="./images/logo.png" alt=""></div>
-                <span class="brand-name">SafeHerd</span>
-            </div>
-            <div class="menu-items" id="navMenu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#team" class="nav-link">Team</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <button class="cta-btn">Get Started</button>
+      <div class="nav-container">
+        <div class="logo-section">
+          <div class="logo-icon"><img src="./images/logo.png" alt="" /></div>
+          <span class="brand-name">SafeHerd</span>
         </div>
+        <div class="menu-items" id="navMenu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#team" class="nav-link">Team</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="cta-btn">Get Started</button>
+      </div>
     </nav>
 
     <section id="home" class="hero-area">
-        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SafeHerd%20%281%29-xA4lCTztfmQo6Vv8RPm8ausFkdI0G8.png" alt="Pastoral landscape with cattle" class="hero-img">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="main-title">SafeHerd</h1>
-            <p class="tagline-text">Connecting Livestock. Empowering Farmers.</p>
-            <button class="hero-cta" onclick="scrollToSection('features')">Get Started</button>
-        </div>
-        <div class="visitor-counter">
-            <span>Visitors: <span id="visitCount">0</span></span>
-        </div>
+      <img
+        src="./images/hero.png"
+        alt="Pastoral landscape with cattle"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="main-title">SafeHerd</h1>
+        <p class="tagline-text">Connecting Livestock. Empowering Farmers.</p>
+        <button class="hero-cta" onclick="scrollToSection('features')">
+          Get Started
+        </button>
+      </div>
+      <div class="visitor-counter">
+        <span>Visitors: <span id="visitCount">0</span></span>
+      </div>
     </section>
 
     <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+          <div class="about-logo">
+            <div class="logo-section">
+              <div class="logo-icon">
+                <img class="image-logo" src="./images/logo3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              SafeHerd was born from the vision of a Rwandan student, Armel
+              Munyaneza, who witnessed firsthand the devastating impact of
+              livestock theft on rural communities. Determined to make a
+              difference, Armel developed an innovative solution combining GPS
+              tracking with smart technology to protect livestock and empower
+              farmers. SafeHerd utilizes solar-powered GPS trackers that
+              function with or without network coverage, providing real-time
+              location data and instant alerts through a user-friendly mobile
+              app. This innovative approach not only alarms theft but also helps
+              farmers manage their herds more effectively, ensuring their
+              livelihoods are secure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience-toggle-section">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
-            <div class="about-content">
-                <div class="about-logo">
-                    <div class="logo-circle">
-                        <div class="logo-inner">
-                            <div class="logo-icon">🐄</div>
-                            <div class="logo-text">SAFEHERD</div>
-                        </div>
-                    </div>
+            <div class="toggle-switch">
+                <button class="toggle-btn active" id="farmersBtn">For Farmers</button>
+                <button class="toggle-btn" id="investorsBtn">For Investors</button>
+            </div>
+            <div class="toggle-content">
+                <div id="farmersContent" class="content-block active">
+                    <h3>Protect Your Livestock</h3>
+                    <p>Our GPS tracking system helps farmers monitor their cattle 24/7, preventing theft and ensuring the safety of their valuable livestock.</p>
                 </div>
-                <div class="about-text">
-                    <p>SafeHerd was born from the vision of a Rwandan student, Armel Munyezamu, who witnessed firsthand the devastating impact of livestock theft on rural communities. Determined to make a difference, Armel developed an innovative solution combining GPS tracking with smart technology to protect livestock and empower farmers. SafeHerd utilizes solar-powered GPS trackers that function with or without network coverage, providing real-time location data and instant alerts through a user-friendly mobile app. This innovative approach not only alarms theft but also helps farmers manage their herds more effectively, ensuring their livelihoods are secure.</p>
+                <div id="investorsContent" class="content-block">
+                    <h3>Invest in Rural Innovation</h3>
+                    <p>Join us in revolutionizing livestock management across Africa. SafeHerd represents a scalable solution with massive market potential.</p>
                 </div>
             </div>
         </div>
     </section>
+  </body>
+</html>
