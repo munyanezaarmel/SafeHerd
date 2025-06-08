@@ -66,7 +66,6 @@ body.dark-mode .testimonial-item {
 .logo-icon {
     width: 32px;
     height: 32px;
-    background-color: #333;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -120,4 +119,132 @@ body.dark-mode .testimonial-item {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+.hero-area {
+    margin-top: 60px;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.main-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.tagline-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.hero-cta {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #45a049;
+}
+
+.visitor-counter {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: rgba(255,255,255,0.9);
+    color: #333;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-logo {
+    flex: 0 0 25%;
+}
+
+.logo-circle {
+    width: 96px;
+    height: 96px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid #eee;
+}
+
+.logo-inner {
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 4px;
+}
+
+.about-text {
+    flex: 0 0 75%;
+}
+
+.about-text p {
+    color: #666;
+    line-height: 1.8;
 }
