@@ -166,7 +166,7 @@ body.dark-mode .testimonial-item {
   border: none;
   padding: 12px 24px;
   font-size: 1rem;
-  border-radius: 14px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
