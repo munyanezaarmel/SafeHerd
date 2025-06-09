@@ -1,8 +1,6 @@
-
-
 let puterInstance = null;
 let contextPrompt = "";
-
+let openFAQ = null;
 
 async function loadContext() {
   try {
@@ -12,7 +10,7 @@ async function loadContext() {
     console.log("Context loaded successfully");
   } catch (error) {
     console.error("Error loading context:", error);
-    contextPrompt = "SafeHerd is a livestock management platform..."; 
+    contextPrompt = "SafeHerd is a livestock management platform...";
   }
 }
 
@@ -27,13 +25,12 @@ function updateVisitorCount() {
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
-  await loadContext(); 
+  await loadContext();
   updateVisitorCount();
   initializeScrollEffects();
   initializeTheme();
 
   try {
-    // puterInstance = new puter(); 
     // console.log("Puter initialized successfully");
     addMessage("Welcome! Ask me anything about SafeHerd.", "bot");
   } catch (error) {
@@ -95,8 +92,6 @@ document.querySelectorAll(".nav-link").forEach((link) => {
   });
 });
 
-let openFAQ = null;
-
 function toggleFAQ(index) {
   const faqItems = document.querySelectorAll(".faq-item");
   const currentItem = faqItems[index];
@@ -122,13 +117,11 @@ function addMessage(text, type) {
   avatarDiv.className = `message-avatar ${type}-avatar`;
 
   if (type === "bot") {
-    
     const logoImg = document.createElement("img");
-    logoImg.src = "./images/logo.png"; 
+    logoImg.src = "./images/logo.png";
     logoImg.alt = "SafeHerd Logo";
     logoImg.className = "bot-avatar-img";
     avatarDiv.appendChild(logoImg);
-   
   } else {
     avatarDiv.textContent = "👤";
   }
@@ -164,7 +157,6 @@ async function sendMessage() {
 
     const fullPrompt = `${contextPrompt}\n\nUser question: ${message}`;
     const response = await puter.ai.chat(fullPrompt);
-
 
     document.getElementById("chatMessages").removeChild(typingDiv);
 
