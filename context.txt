@@ -1,0 +1,35 @@
+SafeHerd is a livestock management platform founded by Armel Munyaneza, a Rwandan student who witnessed firsthand the devastating impact of livestock theft on rural communities. 
+
+Origin Story:
+Armel developed SafeHerd after seeing how livestock theft affected farmers in his community. Many farmers lost their primary source of income and livelihood due to theft, with no effective way to track or recover their animals.
+
+Mission:
+SafeHerd's mission is to protect livestock and empower farmers through innovative technology solutions. We aim to reduce livestock theft, improve herd management, and increase the economic security of rural farming communities.
+
+Products and Services:
+1. Solar-powered GPS trackers that function with or without network coverage
+2. User-friendly mobile app providing real-time location data and instant alerts
+3. Smart Sound Training system that helps livestock respond to specific sound patterns
+4. Comprehensive herd management tools for farmers
+
+Key Features:
+- Real-time location tracking of livestock
+- Solar-powered technology for continuous operation
+- Works in remote areas without network coverage
+- Instant theft alerts through mobile app
+- Historical location data
+- Behavioral training tools
+
+Team:
+- Armel Munyaneza (CEO & Founder): Visionary leader passionate about rural innovation
+- Habimana Nyiringoma Tresor (CTO): Technology expert specializing in GPS and mobile app development
+- Alice Uwimana (Product Manager): Experienced in product development and farmer community engagement
+- Jean Bosco (Sales Director): Expert in agricultural markets and business development across Africa
+
+Long-term Vision:
+SafeHerd aims to become the leading livestock protection and management platform across Africa, expanding to other developing regions where livestock theft is common. We envision creating a comprehensive ecosystem that not only protects animals but also provides data-driven insights for better farming practices, connects farmers to markets, and ultimately transforms rural economies.
+
+Contact Information:
+Email: munyaarmel61@gmail.com
+Phone: +25075679625
+Website: https://munyanezaarmel.github.io/SafeHerd/
